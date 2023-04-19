@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+ <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link href="obrigado.html">
+    <link rel="stylesheet" href="style.css">
+ </head>
+  <body>
+   <header id= topo style="
+      background-color: #0c00f5;
+      text-align: center;
+      padding: 10px;
+      font-size: 20px;
+      justify-content: space-between;">      
+      <h1>HTML<sup>Linguagem de Marcação de Hipertexto</sup></h1>
+      <h2>Tutoriais para iniciantes</h2>
+   </header>
+   <nav>
+      <ul style="display: flex;
+      align-items: center;
+      padding: 1em;
+      background-color: #0c00f5;
+      justify-content: space-between;list-style: none;">
+       <li><a style="color: #ffffff;text-decoration: none ;" href="index.html" target="_blank">inicio</a></li>
+       <li><a style="color: #ffffff;text-decoration: none;" href="index.html#html">HTML</a></li>
+       <li><a style="color: #ffffff;text-decoration: none" href="index.html#tabela">Tabela e Listas</a></li>
+       <li><a style="color: #ffffff;text-decoration: none" href="index.html#sobre">Sobre CSS, HTML e JS</a></li>
+       <li><a style="color: #ffffff;text-decoration: none" href="index.html#rodape">Links</a></li>
+       <li><a style="color: #ffffff;text-decoration: none" href="contatos.html target="_blank>Contatos</a></li>
+      </ul>
+     </nav>
+       <div style="display: flex;width: 50%; margin: 0%;">
+         <form action="obrigado.html" method="get">
+          <label id="l1">name: </label> <br />
+          <input type="text" name="nome" required /> <br />
+          <label>email:</label> <br />
+          <input type="email" name="email" placeholder="exemplo@gmail.com" required/> <br />
+          <label>assunto:</label> <br />
+          <select name="select"> 
+          <option value="v1">criticas</option>
+          <option value="v2">avaliar</option>
+          <option value="v3" selected>duvidas</option>
+          </select> <br>
+          <label>mensagem:</label> <br />
+          <textarea name="mensagem"></textarea> <br />
+          <input type="checkbox" name="aceito" required>
+          <label>Concordo com os termos de privacidadde</label><br>
+          <input type="submit" value="enviar mensagem" required />
+         </form>
+       </div>
+         <nav style="padding-top: 50px;">
+            <footer id="rodape" class="footer">
+               <div class="footer1">
+                <div class="f1"><h1 style="margin: 5px;">Sobre</h1>
+                 <ul>               
+                  <li><a href="index.html#topo">Topo</a></li>
+                  <li>Política de privacidade</li>
+                  <li><a href="contatos.html">Fale conosco</a></li>
+                 </ul>
+                </div>
+                <div class="f2">
+                  <h1 style="margin: 5px;">Referências</h1>
+                  <ul>
+                    <li><a href="https://www.w3schools.com"target="_blank" >W3School</a></li>
+                    <li><a href="https://www.youtube.com/@profdanielbrandao"target="_blank" >Youtube</a></li>
+                  </ul>
+                </div>
+                <div class="f3">
+                  <h1>Tutoriais</h1>
+                  <ul>
+                   <li>Design</li>
+                   <li>Marketing</li>
+                   <li>Programação</li>
+                   <li>Tutoriais</li>
+                  </ul>                   
+                </div>
+                <div class="f4">
+                  <h1>Outros Links</h1>
+                  <ul>
+                   <li><a href="https://www.cursoemvideo.com/curso/html5/" target="_blank">Curso em Vídeo</a></li>
+                   <li><a href="https://www.youtube.com/watch?v=KbjLtEgmZ_E&t=651s" target="_blank">Dicas sobre Flexbox</a></li>
+                   <li><a href="https://github.com/danielbrandao/appinternet" target="_blank">Dicas sobra o código</a></li>
+                  </ul>
+                </div>
+               </div> 
+               <center>
+                <div>
+                  <spam>Biel Aguiar &copy;Direitos reservados.</spam>
+                </div>
+               </center>
+              </footer>
+          </nav>
+    </div> 
+   </form>
+  </body>
+</html>
